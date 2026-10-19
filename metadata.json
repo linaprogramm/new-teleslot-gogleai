@@ -1,0 +1,6 @@
+{
+  "name": "TeleSlot — Биржа рекламы в Telegram",
+  "description": "Telegram Mini App биржа рекламы TeleSlot: каталог блогеров, выбор слотов по дате и времени, форматы постов, авто-маркировка erid, кабинет блогера и CRM-система для админа.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

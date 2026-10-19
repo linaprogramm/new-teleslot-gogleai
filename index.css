@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-rose: #EE8FA5;
+    --brand-rose-hover: #DF768E;
+    --brand-rose-dark: #C05572;
+    --brand-rose-deep: #9E3E56;
+    --brand-rose-light: #FDEEF2;
+    --brand-rose-subtle: #FFF0F4;
+    --brand-slate: #15171E;
+    --brand-slate-card: #20232D;
+    --brand-gray-subtle: #F4F3F6;
+  }
+
+  body {
+    background-color: #F8F9FA;
+    color: #15171E;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Hide scrollbars for slick mobile tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
